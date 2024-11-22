@@ -2,11 +2,11 @@
 
 - Create a new book
 - Retrieve a list of all books or a specific book by ID
-- Update book details (title, author, publication date, ISBN, and price)
+- Update book details (title, author, publication date, ISBN, and price,image)
 - Delete a book
 - Authentication using JWT
 - Pagination for the list of books
-- Filtering by title, author, ISBN, and price
+- Filtering by title, author, ISBN, and price,image
 
 ## Endpoints
 
@@ -27,3 +27,6 @@ pip install -r requirements.txt
 
 ## Apply the migrations
 python manage.py migrate
+
+## run the server
+python manage.py runserver
